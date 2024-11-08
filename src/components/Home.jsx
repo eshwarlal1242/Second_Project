@@ -3,14 +3,20 @@ import design from '../assets/design.png'
 import building1 from '../assets/building.png'
 import peoples from '../assets/peoples.png'
 import About from './About';
-import { Card } from 'react-bootstrap';
 import BlueBar from './Blue_bar';
 import ExcellentD from './ExcellentD';
+import Chooseus from './chooseus';
+import Skill from '../skill';
+import Ourblog from './ourblog';
+import Clientreview from './clientreview';
+import Faq from './faq';
+import Ideas from './ideas'
+import Footer from './footer';
 
 
 const Home = () => {
     return (
-        <div className="justify-content mx-auto" style={{background:'#001857'}} >
+        <div className=" justify-content mx-auto" style={{background:'#001857'}} >
 <img style={{margin: '0 auto', Width: '1236px', height: '151px'}} src={design} alt=''/>            <div className="d-flex flex-row" style={{width: '100%'}}>
 
             <div className='content' style={{width: '60%',marginRight:'25px'}}>
@@ -34,6 +40,14 @@ const Home = () => {
         <About/>
        <BlueBar/>
        <ExcellentD/>
+       <Chooseus/>
+       <Skill/>
+       <Ourblog/>
+       <Clientreview/>
+       <Faq/>
+       <Ideas/>
+       <Footer/>
+       
         </div>
     );
 }

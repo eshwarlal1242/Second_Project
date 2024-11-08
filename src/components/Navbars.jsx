@@ -5,7 +5,7 @@ import logo from '../assets/logo.png'
 import Vector from '../assets/Vector.png'
 const Navbars = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light  justify-content-between sticky-top" style={{ background:'#001857',
+        <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style={{ background:'#001857',
             gap: '14px',
             padding: '10px',
             boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)'
